@@ -32,5 +32,14 @@ n1=int(input("Enter a number:"))
 print(n1,"occurred ",num.count(n1),"times")
 
 
+#7 to check sum of three elements
+
+a,b,c=[int(x)for x in input("Enter three numbers:").split()]
+sum=a+b+c
+print(sum)
+y=int(input("Enter a number:"))
+d=sum/y
+print(d)
+
 
 
