@@ -1,11 +1,16 @@
 
 #task 8 outputs
 
-list in ascending order: [9, 10, 15, 23, 35, 46, 67, 78, 80]
+2) list in ascending order: [9, 10, 15, 23, 35, 46, 67, 78, 80]
 
-['core', 'functions', 'language', 'programming']
+3)   ['core', 'functions', 'language', 'programming']
 
-['core', 'functions', 'language', 'programming']
+     ['core', 'functions', 'language', 'programming']
 
-Enter String:python
-pythoo
+4)   Enter String:python
+        pythoo
+
+5 )  Enter  The string:python is one of the programming language 
+     the given string is: Python Is One Of The Programming Language
+
+
