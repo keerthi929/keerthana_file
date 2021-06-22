@@ -1,0 +1,24 @@
+#2 to sort list
+
+num=[10,80 ,35,46,78,23,15,67,9]
+num.sort()
+print("list in ascending order:",num)
+
+#3 to list out items in dictionary and sort them
+
+dict={ "core","language","functions","programming"}
+lst=list(dict)
+print(lst)
+lst.sort()
+print(lst)
+
+#4 to replace first occurence of string 
+s=input("Enter String:")
+print(s)
+s1=s.replace("n","o",1)
+print(s1)
+
+
+
+
+
