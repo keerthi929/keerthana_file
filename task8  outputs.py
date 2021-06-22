@@ -27,4 +27,10 @@
     Mean  is: 56.6666666666
     Median is:  60
     mode is :{90, 20, 60} 
+     
+9)Enter a string:python is advanced language
+  swapcase of a given string is: PYTHON IS ADVANCED LANGUAGE
+     
+  Enter a string:The Palace Is so Beautiful
+  swapcase of a given string is: tHE pALACE iS SO bEAUTIFUL     
 
