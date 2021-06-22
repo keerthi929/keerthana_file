@@ -33,6 +33,8 @@
      
   Enter a string:The Palace Is so Beautiful
   swapcase of a given string is: tHE pALACE iS SO bEAUTIFUL 
+
  10)  0b10110110010
-     0o2662
+      0o2662
+      1458.0
 
