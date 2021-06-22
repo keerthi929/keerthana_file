@@ -25,6 +25,12 @@ str=input("Enter  The string:")
 print("the given string is:",str.title())
 
 
+#6 tofind repeated items of a list 
+
+num=[10,20,35,25,45,35,25,60,80]
+n1=int(input("Enter a number:"))
+print(n1,"occurred ",num.count(n1),"times")
+
 
 
 
