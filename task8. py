@@ -61,6 +61,18 @@ else:
     median = n[n1//2] 
 print("Median is: " ,median) 
 
+#mode
+n.sort()
+L1=[]
+i=0
+while i<len(n):
+   L1.append(n.count(n[i]))
+   i+=1
+d1=dict(zip(n,L1))
+d2={k for (k,v) in d1.items() if v==max(L1)}
+print("mode is :"+str(d2))
+
+
 
 
 
