@@ -16,3 +16,9 @@
 
 6)  Enter a number:25
     25 occurred  2 times
+
+7)  Enter three numbers:20 25 40
+    85
+    Enter a number:5
+    17.0
+
