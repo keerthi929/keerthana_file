@@ -14,3 +14,5 @@
      the given string is: Python Is One Of The Programming Language
 
 
+6)  Enter a number:25
+    25 occurred  2 times
