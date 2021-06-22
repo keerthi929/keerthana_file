@@ -32,5 +32,7 @@
   swapcase of a given string is: PYTHON IS ADVANCED LANGUAGE
      
   Enter a string:The Palace Is so Beautiful
-  swapcase of a given string is: tHE pALACE iS SO bEAUTIFUL     
+  swapcase of a given string is: tHE pALACE iS SO bEAUTIFUL 
+ 10)  0b10110110010
+     0o2662
 
