@@ -19,6 +19,12 @@ s1=s.replace("n","o",1)
 print(s1)
 
 
+#5 to change first letter of the string 
+
+str=input("Enter  The string:")
+print("the given string is:",str.title())
+
+
 
 
 
