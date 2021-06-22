@@ -72,6 +72,11 @@ d1=dict(zip(n,L1))
 d2={k for (k,v) in d1.items() if v==max(L1)}
 print("mode is :"+str(d2))
 
+#9 to swapcase of a given string
+
+str=input("Enter a string:")
+print("swapcase of a given string is:",str.swapcase())
+
 
 
 
