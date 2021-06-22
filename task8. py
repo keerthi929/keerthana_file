@@ -78,6 +78,17 @@ str=input("Enter a string:")
 print("swapcase of a given string is:",str.swapcase())
 
 
+#10 to convert int into binary,octal,decimal
+
+int=1458
+binary=bin(int)
+print(binary)
+octal=oct(int)
+print(octal)
+decimal=d(int)
+print(decimal)
+
+
 
 
 
