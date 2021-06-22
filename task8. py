@@ -85,8 +85,8 @@ binary=bin(int)
 print(binary)
 octal=oct(int)
 print(octal)
-decimal=d(int)
-print(decimal)
+decimal=float(int)
+print(decimal
 
 
 
