@@ -50,6 +50,17 @@ print(c)
 mean = c/ n1
 print("Mean  is:",mean) 
 
+# median 
+
+n.sort()
+if n1% 2 == 0: 
+    median1 = n[n1//2] 
+    median2 = n[n1//2 - 1] 
+    median = (median1 + median2)/2
+else: 
+    median = n[n1//2] 
+print("Median is: " ,median) 
+
 
 
 
