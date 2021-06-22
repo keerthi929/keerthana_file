@@ -41,5 +41,15 @@ y=int(input("Enter a number:"))
 d=sum/y
 print(d)
 
+#8  to find mean median mode
+n= [20,90,60] 
+n1 = len(n) 
+print(n1)
+c= sum(n) 
+print(c)
+mean = c/ n1
+print("Mean  is:",mean) 
+
+
 
 
