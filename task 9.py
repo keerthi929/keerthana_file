@@ -5,6 +5,14 @@ print("original list:",list)
 new_list=[i+2 for i in list]
 print("The new list is:",new_list)
 
+#2 the pattern 
+
+for i in range(1, 6):
+    for j in range(5, i-1,-1):
+        print(j, end="")
+    print()
+
+
 #3 fibonacci series
 
 n = int(input("Enter the value of n: "))
