@@ -1,0 +1,63 @@
+import mysql.connector   
+myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "google") 
+connectoogle")  
+print(myconn)  
+
+
+Output:
+
+
+<mysql.connector.connection.MySQLConnection object at 0x7fb142edd780> 
+
+
+
+2)insert data into table 
+
+
+
+INSERT INTO country (country_name, country_name_eng, country_code) VALUES ('Deutschland', 'Germany', 'DEU');
+INSERT INTO country (country_name, country_name_eng, country_code) VALUES ('Srbija', 'Serbia', 'SRB');
+INSERT INTO country (country_name, country_name_eng, country_code) VALUES ('Hrvatska', 'Croatia', 'HRV');
+INSERT INTO country (country_name, country_name_eng, country_code) VALUES ('United Stated of America', 'United Stated of America', 'USA');
+INSERT INTO country (country_name, country_name_eng, country_code) VALUES ('Polska', 'Poland', 'POL');
+
+
+3)
+CREATE TABLE IF NOT EXISTS employees ( 
+EMPLOYEE_ID decimal(6,0) NOT NULL PRIMARY KEY, 
+FIRST_NAME varchar(20) DEFAULT NULL, 
+LAST_NAME varchar(25) NOT NULL, 
+EMAIL varchar(25) NOT NULL, 
+PHONE_NUMBER varchar(20) DEFAULT NULL, 
+HIRE_DATE date NOT NULL, 
+JOB_ID varchar(10) NOT NULL, 
+SALARY decimal(8,2) DEFAULT NULL, 
+COMMISSION_PCT decimal(2,2) DEFAULT NULL, 
+MANAGER_ID decimal(6,0) DEFAULT NULL, 
+DEPARTMENT_ID decimal(4,0) DEFAULT NULL, 
+FOREIGN KEY(DEPARTMENT_ID,MANAGER_ID) 
+REFERENCES  departments(DEPARTMENT_ID,MANAGER_ID)
+)ENGINE=InnoDB;
+
+
+output
+
+mysql> DESC employees;
++----------------+--------------+------+-----+---------+-------+
+| Field          | Type         | Null | Key | Default | Extra |
++----------------+--------------+------+-----+---------+-------+
+| EMPLOYEE_ID    | decimal(6,0) | NO   | PRI | NULL    |       |
+| FIRST_NAME     | varchar(20)  | YES  |     | NULL    |       |
+| LAST_NAME      | varchar(25)  | NO   |     | NULL    |       |
+| EMAIL          | varchar(25)  | NO   |     | NULL    |       |
+| PHONE_NUMBER   | varchar(20)  | YES  |     | NULL    |       |
+| HIRE_DATE      | date         | NO   |     | NULL    |       |
+| JOB_ID         | varchar(10)  | NO   |     | NULL    |       |
+| SALARY         | decimal(8,2) | YES  |     | NULL    |       |
+| COMMISSION_PCT | decimal(2,2) | YES  |     | NULL    |       |
+| MANAGER_ID     | decimal(6,0) | YES  |     | NULL    |       |
+| DEPARTMENT_ID  | decimal(4,0) | YES  | MUL | NULL    |       |
+
+
+
+
