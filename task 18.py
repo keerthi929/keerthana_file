@@ -10,7 +10,7 @@ SELECT doctor,doctorID, patientID, lastVisit FROM
  #  output
 doctor     idDoctor  idPatient  
 Dr.mani    5678          1
-Dr.suresh   6775        2
+Dr.suresh   6775         2
 Dr.manoj    3456         3
 
 
@@ -25,8 +25,8 @@ FROM appointment;
        output
 
 doctor              patient id 
-Dr.suresh          2
+Dr.suresh             2
 Dr.kani               3
-Dr.thanishka     4
-Dr.yamuna         5
-Dr.roja                 6
+Dr.thanishka          4
+Dr.yamuna             5
+Dr.roja               6
